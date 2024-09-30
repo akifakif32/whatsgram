@@ -181,6 +181,7 @@ function handleMedia(msg, contact, sendMessage = true, isGroup = false, groupNam
 					case 'image/jpg':
 					case 'image/png':
 					case 'image/webp':
+					case 'image/gif':
 						const individualChat = { chatName: contact.name, text: filePath, isMine: false, isRead: true, isImage: true, isAudio: false, isSticker: false }
 						const groupChat = { chatName: groupName, text: filePath, isMine: false, isRead: true, isImage: true, isAudio: false, isSticker: false, altName: contact.name }
 						if (sendMessage) {

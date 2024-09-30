@@ -21,7 +21,7 @@ function createDatabaseIfNeeded() {
                 console.log('"Chat" table successfully created or restored');
             }
         });
-    
+
         db.run(`CREATE TABLE IF NOT EXISTS mensajes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             chatId INTEGER,
