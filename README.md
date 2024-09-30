@@ -50,8 +50,7 @@ This enables the bot to continuously monitor your WhatsApp messages and interact
 	```
 
 4. Run the project:
-<br />
-<br />
+
 	Install forever globally:
 	```
 	npm install -g forever
